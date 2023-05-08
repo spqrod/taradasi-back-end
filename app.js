@@ -60,8 +60,8 @@ app.post("/contact", async (req, res) => {
             const phone = getSanitizedString(req.body.phone);
             const message = getSanitizedString(req.body.message);
             const mail = {
-                from: `"${name}" info@taradasi.com`,
-                to: "info@taradasi.com",
+                from: `"${name}" natasha@taradasi.com`,
+                to: "natasha@taradasi.com",
                 subject: "New Message",
                 html: `
                     <h1>This is a new message from our website.</h1>
